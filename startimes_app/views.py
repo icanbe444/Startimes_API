@@ -59,8 +59,8 @@ class ValidationView(GenericAPIView):
                 }
         print (f"Payload in validate: {payload}")
         try:
-            import pdb
-            pdb.set_trace()
+            # import pdb
+            # pdb.set_trace()
             ca          = os.path.abspath("ca.pem")
             key         = os.path.abspath("uba-mtls.key")
             pem_file    = os.path.abspath("uba-mtls.pem")
